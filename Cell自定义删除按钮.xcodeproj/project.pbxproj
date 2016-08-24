@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A898D8A1D6DB98600D27500 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A898D891D6DB98600D27500 /* main.m */; };
+		5A898D8D1D6DB98600D27500 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A898D8C1D6DB98600D27500 /* AppDelegate.m */; };
+		5A898D901D6DB98600D27500 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A898D8F1D6DB98600D27500 /* ViewController.m */; };
+		5A898D931D6DB98600D27500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A898D911D6DB98600D27500 /* Main.storyboard */; };
+		5A898D951D6DB98700D27500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A898D941D6DB98700D27500 /* Assets.xcassets */; };
+		5A898D981D6DB98700D27500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A898D961D6DB98700D27500 /* LaunchScreen.storyboard */; };
+		5A898DA31D6DB98700D27500 /* Cell_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A898DA21D6DB98700D27500 /* Cell_______Tests.m */; };
+		5A898DAE1D6DB98700D27500 /* Cell_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A898DAD1D6DB98700D27500 /* Cell_______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A898D9F1D6DB98700D27500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A898D7D1D6DB98600D27500 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A898D841D6DB98600D27500;
+			remoteInfo = "Cell自定义删除按钮";
+		};
+		5A898DAA1D6DB98700D27500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A898D7D1D6DB98600D27500 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A898D841D6DB98600D27500;
+			remoteInfo = "Cell自定义删除按钮";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A898D851D6DB98600D27500 /* Cell自定义删除按钮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cell自定义删除按钮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A898D891D6DB98600D27500 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A898D8B1D6DB98600D27500 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5A898D8C1D6DB98600D27500 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5A898D8E1D6DB98600D27500 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5A898D8F1D6DB98600D27500 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5A898D921D6DB98600D27500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A898D941D6DB98700D27500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A898D971D6DB98700D27500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A898D991D6DB98700D27500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A898D9E1D6DB98700D27500 /* Cell自定义删除按钮Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cell自定义删除按钮Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A898DA21D6DB98700D27500 /* Cell_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Cell_______Tests.m"; sourceTree = "<group>"; };
+		5A898DA41D6DB98700D27500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A898DA91D6DB98700D27500 /* Cell自定义删除按钮UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cell自定义删除按钮UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A898DAD1D6DB98700D27500 /* Cell_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Cell_______UITests.m"; sourceTree = "<group>"; };
+		5A898DAF1D6DB98700D27500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A898D821D6DB98600D27500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A898D9B1D6DB98700D27500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A898DA61D6DB98700D27500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A898D7C1D6DB98600D27500 = {
+			isa = PBXGroup;
+			children = (
+				5A898D871D6DB98600D27500 /* Cell自定义删除按钮 */,
+				5A898DA11D6DB98700D27500 /* Cell自定义删除按钮Tests */,
+				5A898DAC1D6DB98700D27500 /* Cell自定义删除按钮UITests */,
+				5A898D861D6DB98600D27500 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A898D861D6DB98600D27500 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A898D851D6DB98600D27500 /* Cell自定义删除按钮.app */,
+				5A898D9E1D6DB98700D27500 /* Cell自定义删除按钮Tests.xctest */,
+				5A898DA91D6DB98700D27500 /* Cell自定义删除按钮UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A898D871D6DB98600D27500 /* Cell自定义删除按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				5A898D8B1D6DB98600D27500 /* AppDelegate.h */,
+				5A898D8C1D6DB98600D27500 /* AppDelegate.m */,
+				5A898D8E1D6DB98600D27500 /* ViewController.h */,
+				5A898D8F1D6DB98600D27500 /* ViewController.m */,
+				5A898D911D6DB98600D27500 /* Main.storyboard */,
+				5A898D941D6DB98700D27500 /* Assets.xcassets */,
+				5A898D961D6DB98700D27500 /* LaunchScreen.storyboard */,
+				5A898D991D6DB98700D27500 /* Info.plist */,
+				5A898D881D6DB98600D27500 /* Supporting Files */,
+			);
+			path = "Cell自定义删除按钮";
+			sourceTree = "<group>";
+		};
+		5A898D881D6DB98600D27500 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A898D891D6DB98600D27500 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5A898DA11D6DB98700D27500 /* Cell自定义删除按钮Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5A898DA21D6DB98700D27500 /* Cell_______Tests.m */,
+				5A898DA41D6DB98700D27500 /* Info.plist */,
+			);
+			path = "Cell自定义删除按钮Tests";
+			sourceTree = "<group>";
+		};
+		5A898DAC1D6DB98700D27500 /* Cell自定义删除按钮UITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A898DAD1D6DB98700D27500 /* Cell_______UITests.m */,
+				5A898DAF1D6DB98700D27500 /* Info.plist */,
+			);
+			path = "Cell自定义删除按钮UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A898D841D6DB98600D27500 /* Cell自定义删除按钮 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A898DB21D6DB98700D27500 /* Build configuration list for PBXNativeTarget "Cell自定义删除按钮" */;
+			buildPhases = (
+				5A898D811D6DB98600D27500 /* Sources */,
+				5A898D821D6DB98600D27500 /* Frameworks */,
+				5A898D831D6DB98600D27500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cell自定义删除按钮";
+			productName = "Cell自定义删除按钮";
+			productReference = 5A898D851D6DB98600D27500 /* Cell自定义删除按钮.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A898D9D1D6DB98700D27500 /* Cell自定义删除按钮Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A898DB51D6DB98700D27500 /* Build configuration list for PBXNativeTarget "Cell自定义删除按钮Tests" */;
+			buildPhases = (
+				5A898D9A1D6DB98700D27500 /* Sources */,
+				5A898D9B1D6DB98700D27500 /* Frameworks */,
+				5A898D9C1D6DB98700D27500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A898DA01D6DB98700D27500 /* PBXTargetDependency */,
+			);
+			name = "Cell自定义删除按钮Tests";
+			productName = "Cell自定义删除按钮Tests";
+			productReference = 5A898D9E1D6DB98700D27500 /* Cell自定义删除按钮Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A898DA81D6DB98700D27500 /* Cell自定义删除按钮UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A898DB81D6DB98700D27500 /* Build configuration list for PBXNativeTarget "Cell自定义删除按钮UITests" */;
+			buildPhases = (
+				5A898DA51D6DB98700D27500 /* Sources */,
+				5A898DA61D6DB98700D27500 /* Frameworks */,
+				5A898DA71D6DB98700D27500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A898DAB1D6DB98700D27500 /* PBXTargetDependency */,
+			);
+			name = "Cell自定义删除按钮UITests";
+			productName = "Cell自定义删除按钮UITests";
+			productReference = 5A898DA91D6DB98700D27500 /* Cell自定义删除按钮UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A898D7D1D6DB98600D27500 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = rick;
+				TargetAttributes = {
+					5A898D841D6DB98600D27500 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5A898D9D1D6DB98700D27500 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5A898D841D6DB98600D27500;
+					};
+					5A898DA81D6DB98700D27500 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5A898D841D6DB98600D27500;
+					};
+				};
+			};
+			buildConfigurationList = 5A898D801D6DB98600D27500 /* Build configuration list for PBXProject "Cell自定义删除按钮" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A898D7C1D6DB98600D27500;
+			productRefGroup = 5A898D861D6DB98600D27500 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A898D841D6DB98600D27500 /* Cell自定义删除按钮 */,
+				5A898D9D1D6DB98700D27500 /* Cell自定义删除按钮Tests */,
+				5A898DA81D6DB98700D27500 /* Cell自定义删除按钮UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A898D831D6DB98600D27500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A898D981D6DB98700D27500 /* LaunchScreen.storyboard in Resources */,
+				5A898D951D6DB98700D27500 /* Assets.xcassets in Resources */,
+				5A898D931D6DB98600D27500 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A898D9C1D6DB98700D27500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A898DA71D6DB98700D27500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A898D811D6DB98600D27500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A898D901D6DB98600D27500 /* ViewController.m in Sources */,
+				5A898D8D1D6DB98600D27500 /* AppDelegate.m in Sources */,
+				5A898D8A1D6DB98600D27500 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A898D9A1D6DB98700D27500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A898DA31D6DB98700D27500 /* Cell_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A898DA51D6DB98700D27500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A898DAE1D6DB98700D27500 /* Cell_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A898DA01D6DB98700D27500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A898D841D6DB98600D27500 /* Cell自定义删除按钮 */;
+			targetProxy = 5A898D9F1D6DB98700D27500 /* PBXContainerItemProxy */;
+		};
+		5A898DAB1D6DB98700D27500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A898D841D6DB98600D27500 /* Cell自定义删除按钮 */;
+			targetProxy = 5A898DAA1D6DB98700D27500 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A898D911D6DB98600D27500 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A898D921D6DB98600D27500 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A898D961D6DB98700D27500 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A898D971D6DB98700D27500 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A898DB01D6DB98700D27500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A898DB11D6DB98700D27500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A898DB31D6DB98700D27500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cell自定义删除按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rick.Cell-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A898DB41D6DB98700D27500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cell自定义删除按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rick.Cell-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A898DB61D6DB98700D27500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cell自定义删除按钮Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rick.Cell-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cell自定义删除按钮.app/Cell自定义删除按钮";
+			};
+			name = Debug;
+		};
+		5A898DB71D6DB98700D27500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cell自定义删除按钮Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rick.Cell-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cell自定义删除按钮.app/Cell自定义删除按钮";
+			};
+			name = Release;
+		};
+		5A898DB91D6DB98700D27500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cell自定义删除按钮UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rick.Cell-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cell自定义删除按钮";
+			};
+			name = Debug;
+		};
+		5A898DBA1D6DB98700D27500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cell自定义删除按钮UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rick.Cell-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cell自定义删除按钮";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A898D801D6DB98600D27500 /* Build configuration list for PBXProject "Cell自定义删除按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A898DB01D6DB98700D27500 /* Debug */,
+				5A898DB11D6DB98700D27500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A898DB21D6DB98700D27500 /* Build configuration list for PBXNativeTarget "Cell自定义删除按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A898DB31D6DB98700D27500 /* Debug */,
+				5A898DB41D6DB98700D27500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A898DB51D6DB98700D27500 /* Build configuration list for PBXNativeTarget "Cell自定义删除按钮Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A898DB61D6DB98700D27500 /* Debug */,
+				5A898DB71D6DB98700D27500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A898DB81D6DB98700D27500 /* Build configuration list for PBXNativeTarget "Cell自定义删除按钮UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A898DB91D6DB98700D27500 /* Debug */,
+				5A898DBA1D6DB98700D27500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A898D7D1D6DB98600D27500 /* Project object */;
+}
